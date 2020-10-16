@@ -1,22 +1,46 @@
-.navbar{
-  background-color:#fff;
+.navbar {
+  background-color: #fff;
   color: white;
   padding-bottom: 0px;
   padding-top: 0px;
   height: 110px;
 }
 
-.logo{
+.logo {
   height: 80px;
 }
 
-.nav-link{
+.nav-link {
   font-weight: bold;
   font-size: 20px;
   color: black;
 }
 
 .nav-link:hover {
-  color: #30A6E6;
+  color: #30a6e6;
 }
+
+.nav-menu{
+  display: none;
+}
+
+/**
+ RESPOSIVE
+**/
+
+@media screen and (max-width: 750px) {
+  /* Rédigez vos propriétés CSS ici */
+  .navbar-expand{
+    display: none;
+  }
+}
+
+@media screen and (max-width:  750px) {
+  /* Rédigez vos propriétés CSS ici */
+  .nav-menu{
+    display: block;
+    display: flex;
+  }
+}
+
 

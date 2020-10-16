@@ -41,7 +41,6 @@ h1 {
     display: inline-flex;
     float: left;
     margin-top: 10px;
-
 }
 
 .btn {
@@ -57,7 +56,7 @@ h1 {
 
 .btn:hover {
     background-color: #fff;
-    color: #30A6E6;
+    color: #30a6e6;
 }
 
 .contact-usBtn {
@@ -79,4 +78,32 @@ h1 {
     border-radius: 100px;
     padding: 10px 100px 10px 100px;
     box-shadow: 3px 5px rgba(255, 255, 255, 0.877);
+}
+
+@media screen and (max-width: 750px) {
+    /* Rédigez vos propriétés CSS ici */
+    h1 {
+        font-size: 40px;
+    }
+
+    .hero__subTitle {
+        max-width: 20.125em;
+        margin-bottom: 1rem;
+        font-family: 16px "Libre Franklin", sans-serif;
+        font-size: 20px;
+    }
+
+    .btn-more {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-family: "Heebo", Helvetica, Arial, sans-serif;
+        color: #fafafa;
+        font-weight: 200;
+        letter-spacing: 0.2em;
+        background-color: #262264;
+        border-radius: 100px;
+        width: 100%;
+        padding: 10px 40px 10px 40px;
+        box-shadow: 3px 5px rgba(255, 255, 255, 0.877);
+    }
 }
