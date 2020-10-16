@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e046e6fd702dc4029d021902fe4a819",
+    "revision": "2d3833ae8e2a1e4e03bd36dca372f099",
     "url": "/baobabGroup_site/index.html"
   },
   {
-    "revision": "b17222a2c2c87579f651",
+    "revision": "e0ee9bb91d333911a7b1",
     "url": "/baobabGroup_site/static/css/2.86317f62.chunk.css"
   },
   {
-    "revision": "163cd94160c47259e96d",
-    "url": "/baobabGroup_site/static/css/main.eb454bf7.chunk.css"
+    "revision": "0be7c3434d64953d73ec",
+    "url": "/baobabGroup_site/static/css/main.5a86355c.chunk.css"
   },
   {
-    "revision": "b17222a2c2c87579f651",
-    "url": "/baobabGroup_site/static/js/2.9a11aa48.chunk.js"
+    "revision": "e0ee9bb91d333911a7b1",
+    "url": "/baobabGroup_site/static/js/2.5e5b7900.chunk.js"
   },
   {
     "revision": "413b595604c5d3d1d7baf18f18130db2",
-    "url": "/baobabGroup_site/static/js/2.9a11aa48.chunk.js.LICENSE.txt"
+    "url": "/baobabGroup_site/static/js/2.5e5b7900.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "163cd94160c47259e96d",
-    "url": "/baobabGroup_site/static/js/main.10fae1a8.chunk.js"
+    "revision": "0be7c3434d64953d73ec",
+    "url": "/baobabGroup_site/static/js/main.0f973b5d.chunk.js"
   },
   {
     "revision": "61856be920a2713e5d0d",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ad5ce3052bd1a73fd5e94a89713800bb",
     "url": "/baobabGroup_site/static/media/logo.ad5ce305.png"
+  },
+  {
+    "revision": "c159867d8385f4b4a739e3d0b1928f88",
+    "url": "/baobabGroup_site/static/media/menu.c159867d.svg"
   },
   {
     "revision": "6aa5809fc5832f051b1d003b0eb6d23d",

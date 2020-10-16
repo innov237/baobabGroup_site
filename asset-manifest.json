@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/baobabGroup_site/static/css/main.eb454bf7.chunk.css",
-    "main.js": "/baobabGroup_site/static/js/main.10fae1a8.chunk.js",
-    "main.js.map": "/baobabGroup_site/static/js/main.10fae1a8.chunk.js.map",
+    "main.css": "/baobabGroup_site/static/css/main.5a86355c.chunk.css",
+    "main.js": "/baobabGroup_site/static/js/main.0f973b5d.chunk.js",
+    "main.js.map": "/baobabGroup_site/static/js/main.0f973b5d.chunk.js.map",
     "runtime-main.js": "/baobabGroup_site/static/js/runtime-main.9f8e1d56.js",
     "runtime-main.js.map": "/baobabGroup_site/static/js/runtime-main.9f8e1d56.js.map",
     "static/css/2.86317f62.chunk.css": "/baobabGroup_site/static/css/2.86317f62.chunk.css",
-    "static/js/2.9a11aa48.chunk.js": "/baobabGroup_site/static/js/2.9a11aa48.chunk.js",
-    "static/js/2.9a11aa48.chunk.js.map": "/baobabGroup_site/static/js/2.9a11aa48.chunk.js.map",
+    "static/js/2.5e5b7900.chunk.js": "/baobabGroup_site/static/js/2.5e5b7900.chunk.js",
+    "static/js/2.5e5b7900.chunk.js.map": "/baobabGroup_site/static/js/2.5e5b7900.chunk.js.map",
     "index.html": "/baobabGroup_site/index.html",
-    "precache-manifest.666148ac74f82f6802c0555a86f909e9.js": "/baobabGroup_site/precache-manifest.666148ac74f82f6802c0555a86f909e9.js",
+    "precache-manifest.5b91eb314ceacd0c3171aaed19cba927.js": "/baobabGroup_site/precache-manifest.5b91eb314ceacd0c3171aaed19cba927.js",
     "service-worker.js": "/baobabGroup_site/service-worker.js",
     "static/css/2.86317f62.chunk.css.map": "/baobabGroup_site/static/css/2.86317f62.chunk.css.map",
-    "static/css/main.eb454bf7.chunk.css.map": "/baobabGroup_site/static/css/main.eb454bf7.chunk.css.map",
-    "static/js/2.9a11aa48.chunk.js.LICENSE.txt": "/baobabGroup_site/static/js/2.9a11aa48.chunk.js.LICENSE.txt",
+    "static/css/main.5a86355c.chunk.css.map": "/baobabGroup_site/static/css/main.5a86355c.chunk.css.map",
+    "static/js/2.5e5b7900.chunk.js.LICENSE.txt": "/baobabGroup_site/static/js/2.5e5b7900.chunk.js.LICENSE.txt",
     "static/media/Banner.css": "/baobabGroup_site/static/media/bg-banner.f6cf0858.jpg",
     "static/media/icon-design.png": "/baobabGroup_site/static/media/icon-design.6dd12b2f.png",
     "static/media/icon-formation.png": "/baobabGroup_site/static/media/icon-formation.dced2739.png",
@@ -24,14 +24,15 @@
     "static/media/icon-strategy.png": "/baobabGroup_site/static/media/icon-strategy.8d30d442.png",
     "static/media/icon-web.png": "/baobabGroup_site/static/media/icon-web.c76622f5.png",
     "static/media/logo.png": "/baobabGroup_site/static/media/logo.ad5ce305.png",
+    "static/media/menu.svg": "/baobabGroup_site/static/media/menu.c159867d.svg",
     "static/media/phone-build.png": "/baobabGroup_site/static/media/phone-build.6aa5809f.png",
     "static/media/phone2-img.png": "/baobabGroup_site/static/media/phone2-img.ef25b3b0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9f8e1d56.js",
     "static/css/2.86317f62.chunk.css",
-    "static/js/2.9a11aa48.chunk.js",
-    "static/css/main.eb454bf7.chunk.css",
-    "static/js/main.10fae1a8.chunk.js"
+    "static/js/2.5e5b7900.chunk.js",
+    "static/css/main.5a86355c.chunk.css",
+    "static/js/main.0f973b5d.chunk.js"
   ]
 }
