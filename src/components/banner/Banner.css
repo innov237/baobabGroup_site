@@ -32,7 +32,8 @@ h1 {
 }
 
 .dot-div {
-    width: 50px;
+    width: 100px;
+    height: 20px;
     border-radius: 20px;
     padding: 8px 70px 8px 2px;
     border: none;
@@ -40,7 +41,34 @@ h1 {
     margin-left: 20px;
     display: inline-flex;
     float: left;
+    padding: 2px;
     margin-top: 10px;
+}
+
+.dot-div span {
+    height: 20px;
+    border-radius: 20px;
+    padding: 8px 70px 8px 2px;
+    border: none;
+    display: inline-flex;
+    float: left;
+    margin-top: 10px;
+}
+
+.owl-carousel .active span {
+    height: 20px;
+    width: 100%;
+    background-color: #46c8df5d !important;
+    display: block;
+    -webkit-transition: opacity 200ms ease;
+    -moz-transition: opacity 200ms ease;
+    -ms-transition: opacity 200ms ease;
+    -o-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin-top: -2px;
 }
 
 .btn {
@@ -70,18 +98,22 @@ h1 {
 .btn-more {
     float: left;
     margin: 20px;
+    font-weight: bold;
     font-family: "Heebo", Helvetica, Arial, sans-serif;
     color: #fafafa;
-    font-weight: 400;
     letter-spacing: 0.2em;
     background-color: #262264;
     border-radius: 100px;
     padding: 10px 100px 10px 100px;
-    box-shadow: 3px 5px rgba(255, 255, 255, 0.877);
+    box-shadow: 1px 0px 1px 3px rgba(255, 255, 255, 0.418);
 }
 
 @media screen and (max-width: 750px) {
     /* Rédigez vos propriétés CSS ici */
+    .banner-div {
+        padding: 10px;
+    }
+
     h1 {
         font-size: 40px;
     }

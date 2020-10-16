@@ -33,6 +33,8 @@
   .navbar-expand{
     display: none;
   }
+
+  
 }
 
 @media screen and (max-width:  750px) {

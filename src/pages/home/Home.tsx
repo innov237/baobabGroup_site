@@ -61,7 +61,7 @@ const Home: React.FC = () => (
     <div>
         <Banner></Banner>
         <div className="container-fluid">
-            <div className="row device-row d-flex align-items-center justify-content-center">
+            <div className="row device-row  p-2 d-flex align-items-center justify-content-center">
                 <div className="expertise-title">
                     By Using Our Expertise, <br />
                     We help you archieve your dream

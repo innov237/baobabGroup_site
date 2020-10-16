@@ -30,7 +30,7 @@ const Banner: React.FC = () => (
                     </div>
                     <div className="item">
                         <div className="slider-content">
-                            <h1 className="hero__title">Technology solutions <br /> Expert</h1>
+                            <h1 className="hero__title">We Build Best Technology <br />Solutions Expert</h1>
                             <div className="hero__subTitle">
                                 A web design, development, and digital marketing agency with a passionate belief in the power of technology to positively transform business practices.
                             </div>
