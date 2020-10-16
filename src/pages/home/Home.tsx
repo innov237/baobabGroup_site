@@ -94,7 +94,7 @@ const Home: React.FC = () => (
                     <div className="col-md-6">
                         <h1 className="pb-5">Working to build your success</h1>
                         <p style={{ color: "#80889B;", fontSize: "15px" }}>
-                            For over 5 years, baobabGroup.com is dedicated to providing best-in-class web design, development, hosting, and digital marketing services. With us, your success is our success and we work with you to find powerful online solutions that fit your needs.
+                            Foer over 5 years, baobabGroup.com is dedicated2 to providing best-in-class web design, development, hosting, and digital marketing services. With us, your success is our success and we work with you to find powerful online solutions that fit your needs.
                      </p>
                     </div>
                     <div className="col-md-6">
