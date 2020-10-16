@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f029e7731a8d62a5085dd206b8c825e",
+    "revision": "0c20d2ab427311ee52c4ab9df057c421",
     "url": "/baobabGroup_site/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baobabGroup_site/static/css/2.86317f62.chunk.css"
   },
   {
-    "revision": "d9ef54df371555ce3ef5",
-    "url": "/baobabGroup_site/static/css/main.02d6b06c.chunk.css"
+    "revision": "7d6cce32aef9fa986de0",
+    "url": "/baobabGroup_site/static/css/main.f903dee5.chunk.css"
   },
   {
     "revision": "e0ee9bb91d333911a7b1",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baobabGroup_site/static/js/2.5e5b7900.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9ef54df371555ce3ef5",
+    "revision": "7d6cce32aef9fa986de0",
     "url": "/baobabGroup_site/static/js/main.8b97fe82.chunk.js"
   },
   {
