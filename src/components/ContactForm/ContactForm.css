@@ -1,0 +1,15 @@
+.form-container{
+    padding: 50px;
+    background-color: #30A6E6;
+}
+
+.form-control{
+    height: 55px;
+    border-radius: 100px;
+}
+
+.form-label{
+    color: white;
+    margin-left: 25px;
+    font-size: 20px;
+}

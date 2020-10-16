@@ -178,11 +178,10 @@ const Home: React.FC = () => (
                         </div>
                     </div>
                 </div>
-
             </div>
-            <DividerVertical></DividerVertical>
+            
+        <DividerVertical></DividerVertical>
         </div>
-
     </div>
 );
 

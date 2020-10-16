@@ -6,7 +6,8 @@ import Portfolio from './pages/portfolio/Portfolio';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Footer } from './components/footer/Footer';
-import ContactForm from './components/ContactForm/contactForm';
+import ContactForm from './components/ContactForm/ContactForm';
+import { DividerVertical } from './components/dividerVertical/DividerVertical';
 
 function App() {
   return (
@@ -15,10 +16,12 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/baobabGroup_site" component={Home} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
         </Switch>
       </Router>
+      <DividerVertical></DividerVertical>
       <ContactForm></ContactForm>
       <Footer></Footer>
     </div>
