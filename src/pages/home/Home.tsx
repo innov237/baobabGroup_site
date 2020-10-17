@@ -10,6 +10,8 @@ import iconia from '../../images/icon-ia.png';
 import iconformation from '../../images/icon-formation.png';
 import iconserviceclient from '../../images/icon-service-client.png';
 import phonebuild2 from '../../images/phone2-img.png';
+import team from '../../images/team.jpg';
+
 import './Home.css';
 import { DividerVertical } from '../../components/dividerVertical/DividerVertical';
 
@@ -17,42 +19,42 @@ var serviceData = [
     {
         icon: iconweb,
         title: "Web & mobile development",
-        description: "We develop award-winning websites and mobile apps designed to deliver value and results"
+        description: "We build award-winning websites and mobile applications built to deliver value and results. Our end product to personalized for your unique demand"
     },
     {
         icon: icondesign,
-        title: "Design conception",
-        description: "Our award-winning UX designers create visually impressive and functional online experiences, designed with your audience in mind."
+        title: "Experience Design",
+        description: "Our well versed UX designers create visually impressive and functional online experiences that are designed with your audience in mind."
     },
     {
         icon: iconmarketing,
-        title: "Digital marketing",
-        description: "Through SEO, content, email marketing and more, we develop strategies that grow your business"
+        title: "Digital Marketing",
+        description: "Through SEO, content, email marketing, Facebook ads and more we develop strategies that grow your business and provide high visibility to the world."
     },
     {
         icon: iconstrategy,
-        title: "Strategy and outlook",
+        title: "Strategy &amp; Insights",
         description: "Through in-depth research and analysis, our team of web experts build a bespoke digital strategy that matches your brand."
     },
     {
         icon: iconhosting,
-        title: "Hosting and security",
-        description: "With in-house data centers, we provide secure, PCI-compliant hosting which is supported by experienced staff members 24/7/365."
+        title: "Hosting &amp; Security",
+        description: "With global partners, we design infrastructure with the highest standards for privacy and data security."
     },
     {
         icon: iconia,
         title: "Artificial intelligence consulting",
-        description: "Automate tasks, solve tough problems, and streamline your business processes. We have in-depth knowledge of artificial intelligence and machine learning solutions."
+        description: "We help organizations leverage machine learning technologies and build breakthrough AI products. We help you be nimble, smart, and fast in your decision making process."
     },
     {
         icon: iconserviceclient,
-        title: "Customer services",
-        description: "We work with you to maintain your site after launch, with dedicated support to ensure your business goals are met."
+        title: "Client Services",
+        description: "We work with you to maintain your site after it launches, with dedicated support to make sure business goals are being met."
     },
     {
         icon: iconformation,
-        title: "Technological training",
-        description: "Take advantage of the latest technology. Our team of experts will give you the skills you need to succeed with Sitefinity, SmartBear, Microsoft Azure and more."
+        title: "Technology Training",
+        description: "Our team of experts will give you the skills you need to self administer your system. AWS, Microsoft Azure, google cloud, ITIL4."
     },
 
 ]
@@ -94,7 +96,7 @@ const Home: React.FC = () => (
                     <div className="col-md-6">
                         <h1 className="pb-5">Working to build your success</h1>
                         <p style={{ color: "#80889B;", fontSize: "15px" }}>
-                            Foer over 5 years, baobabGroup.com is dedicated2 to providing best-in-class web design, development, hosting, and digital marketing services. With us, your success is our success and we work with you to find powerful online solutions that fit your needs.
+                            For over 5 years, baobabGroup.com is dedicated to providing best-in-class web design, development, hosting, and digital marketing services. With us, your success is our success and we work with you to find powerful online solutions that fit your needs.
                      </p>
                     </div>
                     <div className="col-md-6">
@@ -110,14 +112,43 @@ const Home: React.FC = () => (
             <DividerVertical></DividerVertical>
         </div>
 
+        <div className="footer" style={{backgroundColor:"#E3F1FC"}}>
+            <DividerVertical></DividerVertical>
+            <div className="container pb-4 pt-5 d-flex align-items-center justify-content-center">
+                <div className="row align-items-center">
+                    <div className="col-md-6">
+                        <img src={team} alt="logo" style={{ width: "100%" }} className="pt-5 pb-3" />
+                    </div>
+                    <div className="col-md-6">
+                        <h1 className="pb-5">A Professional &amp; Hard Working team</h1>
+                        <p style={{ color: "#80889B;", fontSize: "15px" }}>
+                            Partnering with a family-owned, industry leader with a sole focus on helping
+                            customers grow and achieve success is a winning combination. The team at
+                            baobagroup.com understands that each client has a different story and unique
+                            digital goals. Regardless of business size, industry, or technology.
+                     </p>
+                        <p style={{ color: "#80889B;", fontSize: "15px" }}>
+                            our talented team has a proven track record of delivering exciting, high-
+                            performing digital solutions that produce positive results for businesses across
+                            the globe.
+                     </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <DividerVertical></DividerVertical>
+        </div>
+
+
         <div className="realisations">
             <DividerVertical></DividerVertical>
             <div className="container  pt-5 pb-5 d-flex align-items-center justify-content-center">
                 <div className="row align-items-start">
                     <div className="col-md-4">
-                        <h1 style={{ color: "black" }} className="title">Our reputation is important</h1>
+                        <h1 style={{ color: "black" }} className="title">Web &amp; Application Development</h1>
                         <div className="divider"></div>
-                        <p className="mt-2 pt-4" style={{color:"black"}}>We've helped a wide variety of clients, from start-ups to Fortune 500 companies, in all industries, achieve measurable online results. </p>
+                        <p className="mt-2 pt-4" style={{ color: "black" }}> Our website development services are tailored to deliver value for your business. From simple platform implementations to complete redesigns, we bring multiple teams together to build a solution that works for you. </p>
                     </div>
                     <div className="col-md-8">
                         <div className="row">
@@ -179,8 +210,8 @@ const Home: React.FC = () => (
                     </div>
                 </div>
             </div>
-            
-        <DividerVertical></DividerVertical>
+
+            <DividerVertical></DividerVertical>
         </div>
     </div>
 );

@@ -16,3 +16,8 @@ ul {
 li{
     margin-left: 0px;  
 }
+
+.social-icon{
+    margin-right: 5px;
+    cursor: pointer;
+}

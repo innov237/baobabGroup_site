@@ -1,4 +1,4 @@
-import React, { Component, MouseEvent, useState } from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import logo from '../../images/logo.png';
 import iconMenu from '../../images/menu.svg';
