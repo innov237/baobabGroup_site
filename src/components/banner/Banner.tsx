@@ -7,6 +7,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 import phoneIcon from "../../images/phone-build.png";
 
 const Banner: React.FC = () => (
+
     <div className="banner-div container-fluid">
         <div className="row">
             <div className="col-md-8">
@@ -42,7 +43,7 @@ const Banner: React.FC = () => (
                 </div>
             </div>
             <div className="col-md-4 d-flex justify-content-center p-0">
-                <img src={phoneIcon} alt="" style={{ width: '100%' }} className="p-2" />
+                <img src={phoneIcon} alt="" style={{ width: '100%' }} className="p-2 banner-image" />
             </div>
         </div>
 

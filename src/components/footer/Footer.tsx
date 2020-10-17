@@ -23,7 +23,7 @@ export const Footer = () => (
                     <ul>
                         <li><h3>Contact</h3></li>
                         <li>
-                            Tsinga-fecaboot, Yaoundé cameroun
+                            Nouvelle route bastos, Yaoundé cameroun
                         </li>
                         <li>contact@innov237.com</li>
                         <li>(+237) 697900523</li>
@@ -39,6 +39,9 @@ export const Footer = () => (
                         </li>
                         <li>
                             Conception de design
+                        </li>
+                        <li>
+                            Le marketing numérique
                         </li>
                         <li>
                             Le marketing numérique

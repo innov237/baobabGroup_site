@@ -6,8 +6,8 @@ import Portfolio from './pages/portfolio/Portfolio';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Footer } from './components/footer/Footer';
-import ContactForm from './components/ContactForm/ContactForm';
 import { DividerVertical } from './components/dividerVertical/DividerVertical';
+import ContactForm from './components/ContactForm/ContactForm';
 
 function App() {
   return (
