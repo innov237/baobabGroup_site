@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/baobabGroup_site/static/css/main.ba229065.chunk.css",
-    "main.js": "/baobabGroup_site/static/js/main.80f6fe03.chunk.js",
-    "main.js.map": "/baobabGroup_site/static/js/main.80f6fe03.chunk.js.map",
+    "main.css": "/baobabGroup_site/static/css/main.6a00c8de.chunk.css",
+    "main.js": "/baobabGroup_site/static/js/main.19cd7c93.chunk.js",
+    "main.js.map": "/baobabGroup_site/static/js/main.19cd7c93.chunk.js.map",
     "runtime-main.js": "/baobabGroup_site/static/js/runtime-main.9f8e1d56.js",
     "runtime-main.js.map": "/baobabGroup_site/static/js/runtime-main.9f8e1d56.js.map",
     "static/css/2.058fc819.chunk.css": "/baobabGroup_site/static/css/2.058fc819.chunk.css",
-    "static/js/2.b0983420.chunk.js": "/baobabGroup_site/static/js/2.b0983420.chunk.js",
-    "static/js/2.b0983420.chunk.js.map": "/baobabGroup_site/static/js/2.b0983420.chunk.js.map",
+    "static/js/2.5320b081.chunk.js": "/baobabGroup_site/static/js/2.5320b081.chunk.js",
+    "static/js/2.5320b081.chunk.js.map": "/baobabGroup_site/static/js/2.5320b081.chunk.js.map",
     "index.html": "/baobabGroup_site/index.html",
-    "precache-manifest.0eca40a88ba200eab0eedf5efed9ff0f.js": "/baobabGroup_site/precache-manifest.0eca40a88ba200eab0eedf5efed9ff0f.js",
+    "precache-manifest.5d4aea5581862897856f2c0c7e0552c0.js": "/baobabGroup_site/precache-manifest.5d4aea5581862897856f2c0c7e0552c0.js",
     "service-worker.js": "/baobabGroup_site/service-worker.js",
     "static/css/2.058fc819.chunk.css.map": "/baobabGroup_site/static/css/2.058fc819.chunk.css.map",
-    "static/css/main.ba229065.chunk.css.map": "/baobabGroup_site/static/css/main.ba229065.chunk.css.map",
-    "static/js/2.b0983420.chunk.js.LICENSE.txt": "/baobabGroup_site/static/js/2.b0983420.chunk.js.LICENSE.txt",
+    "static/css/main.6a00c8de.chunk.css.map": "/baobabGroup_site/static/css/main.6a00c8de.chunk.css.map",
+    "static/js/2.5320b081.chunk.js.LICENSE.txt": "/baobabGroup_site/static/js/2.5320b081.chunk.js.LICENSE.txt",
     "static/media/Banner.css": "/baobabGroup_site/static/media/bg-banner.f6cf0858.jpg",
     "static/media/close.svg": "/baobabGroup_site/static/media/close.587ff61c.svg",
     "static/media/icon-design.png": "/baobabGroup_site/static/media/icon-design.6dd12b2f.png",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.9f8e1d56.js",
     "static/css/2.058fc819.chunk.css",
-    "static/js/2.b0983420.chunk.js",
-    "static/css/main.ba229065.chunk.css",
-    "static/js/main.80f6fe03.chunk.js"
+    "static/js/2.5320b081.chunk.js",
+    "static/css/main.6a00c8de.chunk.css",
+    "static/js/main.19cd7c93.chunk.js"
   ]
 }
