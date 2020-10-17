@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/baobabGroup_site/static/css/main.3ce2a3be.chunk.css",
-    "main.js": "/baobabGroup_site/static/js/main.907d1e78.chunk.js",
-    "main.js.map": "/baobabGroup_site/static/js/main.907d1e78.chunk.js.map",
+    "main.js": "/baobabGroup_site/static/js/main.59c9fa84.chunk.js",
+    "main.js.map": "/baobabGroup_site/static/js/main.59c9fa84.chunk.js.map",
     "runtime-main.js": "/baobabGroup_site/static/js/runtime-main.9f8e1d56.js",
     "runtime-main.js.map": "/baobabGroup_site/static/js/runtime-main.9f8e1d56.js.map",
     "static/css/2.058fc819.chunk.css": "/baobabGroup_site/static/css/2.058fc819.chunk.css",
     "static/js/2.ec31aac6.chunk.js": "/baobabGroup_site/static/js/2.ec31aac6.chunk.js",
     "static/js/2.ec31aac6.chunk.js.map": "/baobabGroup_site/static/js/2.ec31aac6.chunk.js.map",
     "index.html": "/baobabGroup_site/index.html",
-    "precache-manifest.66af10d3ecbe7eeca09868a620e2b411.js": "/baobabGroup_site/precache-manifest.66af10d3ecbe7eeca09868a620e2b411.js",
+    "precache-manifest.72f9608f7448d4180717e87c904e590c.js": "/baobabGroup_site/precache-manifest.72f9608f7448d4180717e87c904e590c.js",
     "service-worker.js": "/baobabGroup_site/service-worker.js",
     "static/css/2.058fc819.chunk.css.map": "/baobabGroup_site/static/css/2.058fc819.chunk.css.map",
     "static/css/main.3ce2a3be.chunk.css.map": "/baobabGroup_site/static/css/main.3ce2a3be.chunk.css.map",
@@ -40,6 +40,6 @@
     "static/css/2.058fc819.chunk.css",
     "static/js/2.ec31aac6.chunk.js",
     "static/css/main.3ce2a3be.chunk.css",
-    "static/js/main.907d1e78.chunk.js"
+    "static/js/main.59c9fa84.chunk.js"
   ]
 }
