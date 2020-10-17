@@ -7,13 +7,30 @@ import iconClose from '../../images/close.svg';
 export default function Header() {
 
     const [shoMenu, setstate] = useState(false);
+    const [overflowType, setstateOverFlow] = useState("block");
+
+
+    const css = `
+    body {
+        overflow:${overflowType};
+    }
+    `;
 
     const showMenuf = () => {
         setstate(!shoMenu);
+        if (shoMenu == false) {
+            setstateOverFlow("hidden");
+        } else {
+            setstateOverFlow("block");
+        }
+
     }
 
     return (
         <div>
+            <style>
+                {css}
+            </style>
             <nav className="navbar navbar-lg" role="navigation">
                 <div className="navbar navbar-expand">
                     <ul className="nav navbar-nav navbar-left">
