@@ -14,7 +14,7 @@ export const Footer = () => (
         <DividerVertical></DividerVertical>
         <div className="container pb-5 d-flex align-items-center justify-content-center">
             <div className="row align-items-end">
-                <div className="col-md-6">
+                <div className="col-md-6 pb-4">
                     <img src={logo} alt="logo" style={{ width: "200px" }} className="pt-5 pb-3" />
                     <p style={{ color: "#80889B;", fontSize: "15px" }}>
                         Partnering with a family-owned, industry leader with a sole focus on helping customers grow and achieve success is a winning combination. The team at baobagroup.com understands that each client has a different story and unique digital goals. Regardless of business size, industry, or technology.
@@ -24,7 +24,7 @@ export const Footer = () => (
                       <img src={linkedin} className="social-icon" style={{ width: "30px" }}  alt="" />
                       <img src={instagram} className="social-icon" style={{ width: "30px" }}  alt="" />
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 pb-4">
                     <ul>
                         <li><h3>Our Headerquaters</h3></li>
                         <li>
@@ -37,7 +37,7 @@ export const Footer = () => (
                     </ul>
 
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 pb-4">
                     <ul>
                         <li><h3>Contact Us</h3></li>
                         <li>USA & Cameroon Contacts</li>
@@ -49,7 +49,7 @@ export const Footer = () => (
                 </div>
 
                 <div className="col-md-12 text-center pt-5">
-                    <p>   © 2020 Innov237.Tous droits réservés.</p>
+                    <p>   © 2020 baobaGroup. All rights reserved.</p>
                 </div>
             </div>
 

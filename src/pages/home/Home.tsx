@@ -11,9 +11,17 @@ import iconformation from '../../images/icon-formation.png';
 import iconserviceclient from '../../images/icon-service-client.png';
 import phonebuild2 from '../../images/phone2-img.png';
 import team from '../../images/team.jpg';
+import seremoApp from '../../images/seremo.png';
+import lugginApp from '../../images/luggin.png';
+import OuiCaring from '../../images/ouiCaring.png';
+import beauteAdom from '../../images/beauteAdom.png';
+import consoInvest from '../../images/consoInvest.png';
+import hqseShop from '../../images/hqseShop.png';
+
 
 import './Home.css';
 import { DividerVertical } from '../../components/dividerVertical/DividerVertical';
+import AppPresentationCard from '../../components/appPresentationCard/AppPresentationCard';
 
 var serviceData = [
     {
@@ -57,7 +65,27 @@ var serviceData = [
         description: "Our team of experts will give you the skills you need to self administer your system. AWS, Microsoft Azure, google cloud, ITIL4."
     },
 
-]
+];
+
+var mobileAppData = [
+    { img: seremoApp, title: "Seremoworld", description: "Money transfer app", link: "link" },
+    { img: lugginApp, title: "LuggIn", description: "Travel app", link: "link" },
+    { img: OuiCaring, title: "OuiCaring", description: "Care App", link: "link" },
+    { img: beauteAdom, title: "Beaute Adom", description: "Beauty App", link: "link" },
+    { img: consoInvest, title: "ConsoInvest", description: "Shop App", link: "link" },
+    { img: hqseShop, title: "Hqse-Shop", description: "Care App", link: "link" },
+];
+
+
+var webApp = [
+    { img: "https://www.kevmax.com/min/portfolio/origame/new.jpg", title: "Origame", description: "Money transfer app", link: "link" },
+    { img: "https://www.kevmax.com/min/portfolio/beauteadom/web%20et%20mobile.jpg", title: "beauteadom", description: "Travel app", link: "link" },
+    { img: "https://www.kevmax.com/min/portfolio/nyanga/neww.jpg", title: "Nyanga", description: "Care App", link: "link" },
+    { img: "https://www.kevmax.com/min/portfolio/youmoove_school/new.jpg", title: "Youmoove Etudiant", description: "Beauty App", link: "link" },
+    { img: "https://www.kevmax.com/min/portfolio/beauteadom%20shop/web%20et%20mobile.jpg", title: "BeauteAdom Shop", description: "Shop App", link: "link" },
+    { img: "https://www.kevmax.com/min/portfolio/kema/web%20et%20mobile.jpg", title: "Kema shop", description: "Care App", link: "link" },
+];
+
 
 const Home: React.FC = () => (
     <div>
@@ -112,7 +140,7 @@ const Home: React.FC = () => (
             <DividerVertical></DividerVertical>
         </div>
 
-        <div className="footer" style={{backgroundColor:"#E3F1FC"}}>
+        <div className="footer" style={{ backgroundColor: "#E3F1FC" }}>
             <DividerVertical></DividerVertical>
             <div className="container pb-4 pt-5 d-flex align-items-center justify-content-center">
                 <div className="row align-items-center">
@@ -145,67 +173,36 @@ const Home: React.FC = () => (
             <DividerVertical></DividerVertical>
             <div className="container  pt-5 pb-5 d-flex align-items-center justify-content-center">
                 <div className="row align-items-start">
-                    <div className="col-md-4">
-                        <h1 style={{ color: "black" }} className="title">Web &amp; Application Development</h1>
-                        <div className="divider"></div>
-                        <p className="mt-2 pt-4" style={{ color: "black" }}> Our website development services are tailored to deliver value for your business. From simple platform implementations to complete redesigns, we bring multiple teams together to build a solution that works for you. </p>
+                    <div className="col-md-12">
+                        <h1 style={{ color: "black" }} className="title">Web &amp; <br /> Application Development</h1>
+                        <p className="mt-2 pt-2 pb-5" style={{ color: "black" }}> Our website development services are tailored to deliver value for your business. From simple platform implementations to complete redesigns, we bring multiple teams together to build a solution that works for you. </p>
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-12">
                         <div className="row">
-                            <div className="col-md-4">
-                                <div className="app-card">
-                                    <img style={{ width: "100%" }} src="https://www.kevmax.com/min/portfolio/beauteadom%20shop/web%20et%20mobile.jpg" alt="img" />
-                                    <div className="app-card-content">
-                                        <h1>Beauté admom</h1>
-                                        <p>site de vente en ligne</p>
-                                    </div>
+                            {webApp.map((data) => (
+                                <div className="col-md-4">
+                                    <AppPresentationCard image={data.img} title={data.title} description="" link="" ></AppPresentationCard>
                                 </div>
-                            </div>
-                            <div className="col-md-4">
-                                <div className="app-card">
-                                    <img style={{ width: "100%" }} src="https://www.kevmax.com/min/portfolio/kema/web%20et%20mobile.jpg" alt="img" />
-                                    <div className="app-card-content">
-                                        <h1>Kema shop</h1>
-                                        <p>site de vente en ligne</p>
-                                    </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="realisations">
+            <div className="container pt-5 pb-5 d-flex align-items-center justify-content-center">
+                <div className="row align-items-start">
+                    <div className="col-md-12">
+                        <h1 style={{ color: "black" }} className="title">Mobile Application <br/> Android & Ios </h1>
+                        <p className="mt-2 pt-1 pb-5" style={{ color: "black" }}> Our website development services are tailored to deliver value for your business. From simple platform implementations to complete redesigns, we bring multiple teams together to build a solution that works for you. </p>
+                    </div>
+                    <div className="col-md-12">
+                        <div className="row">
+                            {mobileAppData.map((data) => (
+                                <div className="col-md-4">
+                                    <AppPresentationCard image={data.img} title={data.title} description={data.description} link="" ></AppPresentationCard>
                                 </div>
-                            </div>
-                            <div className="col-md-4">
-                                <div className="app-card">
-                                    <img style={{ width: "100%" }} src="https://www.kevmax.com/min/portfolio/nearestplaces.jpg" alt="img" />
-                                    <div className="app-card-content">
-                                        <h1>NearsBy</h1>
-                                        <p>Application mobile</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4">
-                                <div className="app-card">
-                                    <img style={{ width: "100%" }} src="https://www.kevmax.com/min/portfolio/service/web%20et%20mobile.jpg" alt="img" />
-                                    <div className="app-card-content">
-                                        <h1>Yomoove</h1>
-                                        <p>site internet</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4">
-                                <div className="app-card">
-                                    <img style={{ width: "100%" }} src="https://www.kevmax.com/min/portfolio/service/web%20et%20mobile.jpg" alt="img" />
-                                    <div className="app-card-content">
-                                        <h1>Yomoove</h1>
-                                        <p>site internet</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-4">
-                                <div className="app-card">
-                                    <img style={{ width: "100%" }} src="https://www.kevmax.com/min/portfolio/service/web%20et%20mobile.jpg" alt="img" />
-                                    <div className="app-card-content">
-                                        <h1>Yomoove</h1>
-                                        <p>site internet</p>
-                                    </div>
-                                </div>
-                            </div>
+                            ))};
                         </div>
                     </div>
                 </div>
