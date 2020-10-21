@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81af827ad4624a4123614433064b88da",
+    "revision": "f0bc8255e749dea055b3a93a13500b71",
     "url": "/baobabGroup_site/index.html"
   },
   {
-    "revision": "974a5e6cd68c82ddb5c0",
+    "revision": "581b70239624b9619171",
     "url": "/baobabGroup_site/static/css/2.058fc819.chunk.css"
   },
   {
-    "revision": "13f70a658d9f7284024f",
-    "url": "/baobabGroup_site/static/css/main.3ce2a3be.chunk.css"
+    "revision": "5c63d1190eac5efb6f0e",
+    "url": "/baobabGroup_site/static/css/main.d7b7245f.chunk.css"
   },
   {
-    "revision": "974a5e6cd68c82ddb5c0",
-    "url": "/baobabGroup_site/static/js/2.ec31aac6.chunk.js"
+    "revision": "581b70239624b9619171",
+    "url": "/baobabGroup_site/static/js/2.199700b1.chunk.js"
   },
   {
     "revision": "413b595604c5d3d1d7baf18f18130db2",
-    "url": "/baobabGroup_site/static/js/2.ec31aac6.chunk.js.LICENSE.txt"
+    "url": "/baobabGroup_site/static/js/2.199700b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "13f70a658d9f7284024f",
-    "url": "/baobabGroup_site/static/js/main.03876f6e.chunk.js"
+    "revision": "5c63d1190eac5efb6f0e",
+    "url": "/baobabGroup_site/static/js/main.df3d21a3.chunk.js"
   },
   {
-    "revision": "61856be920a2713e5d0d",
-    "url": "/baobabGroup_site/static/js/runtime-main.9f8e1d56.js"
+    "revision": "1f02a31158008ce50e26",
+    "url": "/baobabGroup_site/static/js/runtime-main.740cb9db.js"
+  },
+  {
+    "revision": "60c7475debf7092faaf9c1363bf8a0c5",
+    "url": "/baobabGroup_site/static/media/beauteAdom.60c7475d.png"
   },
   {
     "revision": "f6cf0858dced1d19e9547c3e99f17f09",
@@ -36,12 +40,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baobabGroup_site/static/media/close.587ff61c.svg"
   },
   {
+    "revision": "76cd65e0b84e045a3b8d4931e9eccf97",
+    "url": "/baobabGroup_site/static/media/consoInvest.76cd65e0.png"
+  },
+  {
     "revision": "0927d31fc87c53e65ce77c45cdd7e53e",
     "url": "/baobabGroup_site/static/media/email.0927d31f.png"
   },
   {
     "revision": "9d07141dd9a4b776147d16a109d78dff",
     "url": "/baobabGroup_site/static/media/facebook.9d07141d.png"
+  },
+  {
+    "revision": "eab828286915eefee92353cd28272015",
+    "url": "/baobabGroup_site/static/media/hqseShop.eab82828.png"
   },
   {
     "revision": "6dd12b2f48310a5f750124ed1b07f27e",
@@ -88,8 +100,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baobabGroup_site/static/media/logo.ad5ce305.png"
   },
   {
+    "revision": "3f30177bc316749d2e9ebb3f0176c6b2",
+    "url": "/baobabGroup_site/static/media/luggin.3f30177b.png"
+  },
+  {
     "revision": "c159867d8385f4b4a739e3d0b1928f88",
     "url": "/baobabGroup_site/static/media/menu.c159867d.svg"
+  },
+  {
+    "revision": "934c816146ed771e1fd4bc7c3ccc7fca",
+    "url": "/baobabGroup_site/static/media/ouiCaring.934c8161.png"
   },
   {
     "revision": "6aa5809fc5832f051b1d003b0eb6d23d",
@@ -98,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef25b3b09712aadbea62e148b0e97cd6",
     "url": "/baobabGroup_site/static/media/phone2-img.ef25b3b0.png"
+  },
+  {
+    "revision": "7a7e2105b82e34834f6b854d36725770",
+    "url": "/baobabGroup_site/static/media/seremo.7a7e2105.png"
   },
   {
     "revision": "0a5ad33520bfe799d8fa7a9fec5baf15",

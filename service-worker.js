@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/baobabGroup_site/precache-manifest.eff5f6fa121c71782fed1035665aa601.js"
+  "/baobabGroup_site/precache-manifest.df44563f8ca3264df066cc4e7b93b9d5.js"
 );
 
 self.addEventListener('message', (event) => {
