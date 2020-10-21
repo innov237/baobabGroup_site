@@ -39,7 +39,7 @@ const Banner: React.FC = () => (
                     </div>
                 </OwlCarousel>
                 <div className="contact-usBtn pb-3 pt-5">
-                    <button className="btn btn-more">Contact us</button>
+                    <a href="#contact"><button className="btn btn-more">Contact us</button></a>
                 </div>
             </div>
             <div className="col-md-4 d-flex justify-content-center p-0">

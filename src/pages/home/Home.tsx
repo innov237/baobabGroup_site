@@ -90,7 +90,7 @@ var webApp = [
 const Home: React.FC = () => (
     <div>
         <Banner></Banner>
-        <div className="container-fluid">
+        <div className="container-fluid" id="services">
             <div className="row device-row  p-2 d-flex align-items-center justify-content-center">
                 <div className="expertise-title">
                     By Using Our Expertise, <br />
@@ -130,7 +130,7 @@ const Home: React.FC = () => (
                     <div className="col-md-6">
                         <img src={phonebuild2} alt="logo" style={{ width: "100%" }} className="pt-5 pb-3" />
                         <p style={{ color: "#80889B;", fontSize: "15px" }}>
-                            <button className="btn btn-more w-100">More About Us</button>
+                            <a href="#contact">  <button className="btn btn-more w-100">More About Us</button></a>
                         </p>
                     </div>
 
@@ -142,7 +142,7 @@ const Home: React.FC = () => (
 
         <div className="footer" style={{ backgroundColor: "#E3F1FC" }}>
             <DividerVertical></DividerVertical>
-            <div className="container pb-4 pt-5 d-flex align-items-center justify-content-center">
+            <div className="container pb-4 pt-5 d-flex align-items-center justify-content-center" id="about">
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         <img src={team} alt="logo" style={{ width: "100%" }} className="pt-5 pb-3" />
@@ -169,7 +169,7 @@ const Home: React.FC = () => (
         </div>
 
 
-        <div className="realisations">
+        <div className="realisations" id="portfolio">
             <DividerVertical></DividerVertical>
             <div className="container  pt-5 pb-5 d-flex align-items-center justify-content-center">
                 <div className="row align-items-start">
@@ -193,7 +193,7 @@ const Home: React.FC = () => (
             <div className="container pt-5 pb-5 d-flex align-items-center justify-content-center">
                 <div className="row align-items-start">
                     <div className="col-md-12">
-                        <h1 style={{ color: "black" }} className="title">Mobile Application <br/> Android & Ios </h1>
+                        <h1 style={{ color: "black" }} className="title">Mobile Application <br /> Android & Ios </h1>
                         <p className="mt-2 pt-1 pb-5" style={{ color: "black" }}> Our website development services are tailored to deliver value for your business. From simple platform implementations to complete redesigns, we bring multiple teams together to build a solution that works for you. </p>
                     </div>
                     <div className="col-md-12">

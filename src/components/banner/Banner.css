@@ -4,6 +4,7 @@
     background-size: contain;
     padding: 30px;
     animation: shrink 8s infinite alternate;
+    padding-top: 130px;
 }
 
 .slider-content {

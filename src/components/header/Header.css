@@ -1,3 +1,9 @@
+.navbar-lg{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
 .navbar {
   background-color: #fff;
   color: white;
@@ -89,6 +95,7 @@
   .menu__collaps {
     display: none;
     height: 100vh;
+    margin-top: 100px;
   }
 
   .nav-menu {

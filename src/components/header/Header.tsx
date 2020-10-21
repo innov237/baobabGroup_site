@@ -34,9 +34,9 @@ export default function Header() {
             <nav className="navbar navbar-lg" role="navigation">
                 <div className="navbar navbar-expand">
                     <ul className="nav navbar-nav navbar-left">
-                        <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#about">Services</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#about">Portfolio</a></li>
+                        <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#services">Services</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#portfolio">Portfolio</a></li>
                     </ul>
                 </div>
                 <div className="navbar">
@@ -44,7 +44,7 @@ export default function Header() {
                 </div>
                 <div className="navbar navbar-expand">
                     <ul className="nav navbar-nav navbar-left">
-                        <li className="nav-item"><a className="nav-link" href="#">Contact</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
                         <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
                     </ul>
                 </div>
@@ -60,18 +60,23 @@ export default function Header() {
 
                     <ol>
                         <li>
-                            <a href="/home">
+                            <a href="/home" onClick={showMenuf}>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#services" onClick={showMenuf}>
                                 Our services
                             </a>
                         </li>
                         <li>
-                            <a href="/home">
+                            <a href="#portfolio" onClick={showMenuf}>
                                 Our Works
                             </a>
                         </li>
                         <li>
-                            <a href="/home">
-                                Our Teams
+                            <a href="#contact" onClick={showMenuf}>
+                                Contact
                             </a>
                         </li>
                     </ol>
